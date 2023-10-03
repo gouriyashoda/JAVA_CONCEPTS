@@ -1,0 +1,32 @@
+package pkg;
+
+public class Product {
+	String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	int id;
+}
+
+
+
+
+steps : 
+new-other-server-server-browse-addserver-close
+new-other-web-dynamicproject-projectname-finish
+projectname-src-main-webapp-rightclick-new-other-htmlfile-edit html file-save-rightclick on htmlfile-run as-run on server-select server-run or
+(webbrowser-localhost:8080/projectname/htmlfile.html)
+
+then
+projectname-rightclick-convert to mavenproject-edit defualt generated code ie., in pom file -save it and
+create RestServices.java and Product.java file in different pakage under same Projectname -
+then goto web.xml-edit using web.txt file/save .....then run
